@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css';
 import CreateIcon from '@mui/icons-material/Create';
+import InputOption from './InputOption';
 
 function Feed() {
   return (
@@ -13,8 +14,11 @@ function Feed() {
                     <button type="submit">Send</button>
                 </form>
             </div>
-        </div>
+            <div className="feed__inputOptions">
+              <InputOption />
 
+            </div>
+        </div>
     </div>
   )
 }
